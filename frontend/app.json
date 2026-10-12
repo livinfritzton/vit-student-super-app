@@ -1,9 +1,18 @@
 {
   "expo": {
-    "name": "VITApp",
-    "slug": "VITApp",
+    "name": "VIT Student Super App",
+    "slug": "vit-student-super-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light"
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F4F7FC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
